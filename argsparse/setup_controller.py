@@ -36,7 +36,7 @@ args.func(args)
 # import argparse
 #
 # parser = argparse.ArgumentParser(add_help=False)
-# subparsers = parser.add_subparsers(help='sub-command help')
+# subparsers = parser.add_subparsers(help='sub-behavioral help')
 #
 # deploy_all = subparsers.add_parser('deploy_all', help='deploys stack, containers, custom services, and default data')
 # deploy_all.add_argument('-u','--username', help='open stack username')

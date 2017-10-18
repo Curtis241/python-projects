@@ -22,18 +22,14 @@ def server_process(connection, address):
         connection.close()
 
 
-def client_process():
+def client_process(sock):
     import logging
     logging.basicConfig(level=logging.DEBUG)
-    logger = logging.getLogger("process-%r" % (address,))
-    try:
-        logger.debug("Connected %r at %r", connection, address)
 
     while True:
         data = "some data"
         sock.sendall(data)
         result = sock.recv(1024)
-        self.logger.debug("result: {0}".format(result))
         sock.close()
 
 

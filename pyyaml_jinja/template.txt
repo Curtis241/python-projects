@@ -1,0 +1,5 @@
+scenario_name {{ scenario["name"] }}
+
+{% for step in scenario["steps"] %}
+step.index {{ step["index"] }}
+{% endfor %}

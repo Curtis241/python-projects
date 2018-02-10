@@ -46,7 +46,7 @@ class MajorDomoBroker(object):
     A minimal implementation of http:#rfc.zeromq.org/spec:7 and spec:8
     """
 
-    # We'd normally pull these from config data
+    # We'd normally pull these from yaml data
     INTERNAL_SERVICE_PREFIX = "mmi."
     HEARTBEAT_LIVENESS = 3 # 3-5 is reasonable
     HEARTBEAT_INTERVAL = 2500 # msecs

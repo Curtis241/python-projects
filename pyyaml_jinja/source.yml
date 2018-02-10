@@ -1,0 +1,28 @@
+scenario:
+  name: MyScenarioName
+  steps:
+    - step:
+        index: 1
+        type: Send
+        frame:
+          gcp_message_fields:
+            - VendorID=4491
+            - Mode=0
+            - Port=1
+          rcp_message:
+            rcp_message_id: 1
+            rcp_message_name: REX
+          gcp_message:
+            gcp_message_id: 6
+            gcp_message_name: DataStructREQ
+          sequence:
+            - RfChannel.RfChannelSelector.RfChannelType=1
+            - RfChannel.RfChannelSelector.RfPortIndex=1
+            - RfChannel.RfChannelSelector.RfChannelIndex=1
+    - step:
+        index: 2
+        type: Receive
+        frame:
+          validator:
+            constraint_name: GcpMessageNameConstraint
+            expected: DataStructRSP

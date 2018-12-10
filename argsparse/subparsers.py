@@ -2,9 +2,9 @@ import argparse
 
 def my_stop(args):
     if args.gracefully:
-        print "Let's try to stop..."
+        print("Let's try to stop...")
     else:
-        print 'Stop, now!'
+        print('Stop, now!')
 
 parser = argparse.ArgumentParser(prog='mydaemon')
 

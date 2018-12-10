@@ -9,14 +9,14 @@ phone = person.phones.add()
 phone.number = "555-4321"
 phone.type = addressbook_pb2.Person.HOME
 
-print person.__str__()
+print(person.__str__())
 
 json_text = '{"phones": [{"type": "HOME","number": "555-1343"}],"email": "pdoe@example.com","name": "Pete Doe","id": 12234}'
 
 
-print "initialized: " + str(person.IsInitialized())
-print json_format.MessageToJson(person)
+print("initialized: " + str(person.IsInitialized()))
+print(json_format.MessageToJson(person))
 
 json_format.Parse(json_text,person)
 
-print person.__str__()
+print(person.__str__())

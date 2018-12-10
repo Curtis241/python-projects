@@ -1,5 +1,4 @@
-from tabulate import *
-
+from tabulate import tabulate
 
 scenarios = [{"id": 1, "name": "default scenario 1", "description": "Description for scenario 1", "source": "default"},
               {"id": 2, "name": "default scenario 2", "description": "Description for scenario 2", "source": "default"},

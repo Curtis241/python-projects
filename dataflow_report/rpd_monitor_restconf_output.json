@@ -1,0 +1,1857 @@
+{
+    "rpd": {
+        "mac-address": "00:18:48:07:c0:77",
+        "rf": {
+            "amp-modules": {
+                "amp-module": [
+                    {
+                        "amps": {
+                            "amp": [
+                                {
+                                    "upstream": {
+                                        "state": {
+                                            "port": {
+                                                "target-input-power": 0,
+                                                "admin-state": "up",
+                                                "port-index": 0
+                                            },
+                                            "rf-wink": false
+                                        }
+                                    },
+                                    "amp-index": 0,
+                                    "downstream": {
+                                        "state": {
+                                            "lower-band-edge": 102000000,
+                                            "port": {
+                                                "tilt-value": 80,
+                                                "tilt-maximum-frequency": 500000000,
+                                                "admin-state": "up",
+                                                "port-index": 0
+                                            },
+                                            "min-composite-power-threshold": 540,
+                                            "current-composite-power": 0,
+                                            "max-composite-power-threshold": 740
+                                        }
+                                    }
+                                },
+                                {
+                                    "upstream": {
+                                        "state": {
+                                            "port": {
+                                                "port-index": 1
+                                            },
+                                            "rf-wink": false
+                                        }
+                                    },
+                                    "amp-index": 1,
+                                    "downstream": {
+                                        "state": {
+                                            "lower-band-edge": 102000000,
+                                            "port": {
+                                                "port-index": 1
+                                            },
+                                            "min-composite-power-threshold": 540,
+                                            "current-composite-power": 0,
+                                            "max-composite-power-threshold": 740
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "state": {
+                            "installed": true
+                        },
+                        "module-index": 0
+                    },
+                    {
+                        "amps": {
+                            "amp": [
+                                {
+                                    "upstream": {
+                                        "state": {
+                                            "port": {
+                                                "port-index": 2
+                                            },
+                                            "rf-wink": false
+                                        }
+                                    },
+                                    "amp-index": 0,
+                                    "downstream": {
+                                        "state": {
+                                            "lower-band-edge": 102000000,
+                                            "port": {
+                                                "port-index": 2
+                                            },
+                                            "min-composite-power-threshold": 540,
+                                            "current-composite-power": 0,
+                                            "max-composite-power-threshold": 740
+                                        }
+                                    }
+                                },
+                                {
+                                    "upstream": {
+                                        "state": {
+                                            "port": {
+                                                "port-index": 3
+                                            },
+                                            "rf-wink": false
+                                        }
+                                    },
+                                    "amp-index": 1,
+                                    "downstream": {
+                                        "state": {
+                                            "lower-band-edge": 102000000,
+                                            "port": {
+                                                "port-index": 3
+                                            },
+                                            "min-composite-power-threshold": 540,
+                                            "current-composite-power": 0,
+                                            "max-composite-power-threshold": 740
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "state": {
+                            "installed": true
+                        },
+                        "module-index": 1
+                    }
+                ]
+            },
+            "us-ports": {
+                "us-port": {
+                    "channels": {
+                        "channel": [
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "slot-size": 1,
+                                        "config-change-count": 6,
+                                        "width": 6400000,
+                                        "target-rx-power-adjust": 0,
+                                        "us-chan-id": 1,
+                                        "admin-state": "up",
+                                        "sc-qam-type": "atdma",
+                                        "center-frequency": 8300000,
+                                        "iucs": {
+                                            "iuc": [
+                                                {
+                                                    "code": 1,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 3,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 4,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 9,
+                                                    "modulation-type": "qam-64"
+                                                },
+                                                {
+                                                    "code": 10,
+                                                    "modulation-type": "qam-64"
+                                                },
+                                                {
+                                                    "code": 11,
+                                                    "modulation-type": "qam-64"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "index": 0,
+                                "channel-type": "atdma"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "slot-size": 1,
+                                        "config-change-count": 7,
+                                        "width": 6400000,
+                                        "target-rx-power-adjust": 0,
+                                        "us-chan-id": 2,
+                                        "admin-state": "up",
+                                        "sc-qam-type": "atdma",
+                                        "center-frequency": 14900000,
+                                        "iucs": {
+                                            "iuc": [
+                                                {
+                                                    "code": 1,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 3,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 4,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 9,
+                                                    "modulation-type": "qam-64"
+                                                },
+                                                {
+                                                    "code": 10,
+                                                    "modulation-type": "qam-64"
+                                                },
+                                                {
+                                                    "code": 11,
+                                                    "modulation-type": "qam-64"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "index": 1,
+                                "channel-type": "atdma"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "slot-size": 1,
+                                        "config-change-count": 10,
+                                        "width": 6400000,
+                                        "target-rx-power-adjust": 0,
+                                        "us-chan-id": 3,
+                                        "admin-state": "up",
+                                        "sc-qam-type": "atdma",
+                                        "center-frequency": 21500000,
+                                        "iucs": {
+                                            "iuc": [
+                                                {
+                                                    "code": 1,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 3,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 4,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 9,
+                                                    "modulation-type": "qam-64"
+                                                },
+                                                {
+                                                    "code": 10,
+                                                    "modulation-type": "qam-64"
+                                                },
+                                                {
+                                                    "code": 11,
+                                                    "modulation-type": "qam-64"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "index": 2,
+                                "channel-type": "atdma"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "slot-size": 1,
+                                        "config-change-count": 8,
+                                        "width": 6400000,
+                                        "target-rx-power-adjust": 0,
+                                        "us-chan-id": 4,
+                                        "admin-state": "up",
+                                        "sc-qam-type": "atdma",
+                                        "center-frequency": 28100000,
+                                        "iucs": {
+                                            "iuc": [
+                                                {
+                                                    "code": 1,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 3,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 4,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 9,
+                                                    "modulation-type": "qam-64"
+                                                },
+                                                {
+                                                    "code": 10,
+                                                    "modulation-type": "qam-64"
+                                                },
+                                                {
+                                                    "code": 11,
+                                                    "modulation-type": "qam-64"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "index": 3,
+                                "channel-type": "atdma"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "slot-size": 1,
+                                        "config-change-count": 10,
+                                        "width": 6400000,
+                                        "target-rx-power-adjust": 0,
+                                        "us-chan-id": 5,
+                                        "admin-state": "up",
+                                        "sc-qam-type": "atdma",
+                                        "center-frequency": 34700000,
+                                        "iucs": {
+                                            "iuc": [
+                                                {
+                                                    "code": 1,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 3,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 4,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 9,
+                                                    "modulation-type": "qam-64"
+                                                },
+                                                {
+                                                    "code": 10,
+                                                    "modulation-type": "qam-64"
+                                                },
+                                                {
+                                                    "code": 11,
+                                                    "modulation-type": "qam-64"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "index": 4,
+                                "channel-type": "atdma"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "slot-size": 1,
+                                        "config-change-count": 8,
+                                        "width": 6400000,
+                                        "target-rx-power-adjust": 0,
+                                        "us-chan-id": 6,
+                                        "admin-state": "up",
+                                        "sc-qam-type": "atdma",
+                                        "center-frequency": 41300000,
+                                        "iucs": {
+                                            "iuc": [
+                                                {
+                                                    "code": 1,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 3,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 4,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 9,
+                                                    "modulation-type": "qam-64"
+                                                },
+                                                {
+                                                    "code": 10,
+                                                    "modulation-type": "qam-64"
+                                                },
+                                                {
+                                                    "code": 11,
+                                                    "modulation-type": "qam-64"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "index": 5,
+                                "channel-type": "atdma"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "slot-size": 1,
+                                        "config-change-count": 7,
+                                        "width": 6400000,
+                                        "target-rx-power-adjust": 0,
+                                        "us-chan-id": 7,
+                                        "admin-state": "up",
+                                        "sc-qam-type": "atdma",
+                                        "center-frequency": 47900000,
+                                        "iucs": {
+                                            "iuc": [
+                                                {
+                                                    "code": 1,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 3,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 4,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 9,
+                                                    "modulation-type": "qam-64"
+                                                },
+                                                {
+                                                    "code": 10,
+                                                    "modulation-type": "qam-64"
+                                                },
+                                                {
+                                                    "code": 11,
+                                                    "modulation-type": "qam-64"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "index": 6,
+                                "channel-type": "atdma"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "slot-size": 1,
+                                        "config-change-count": 8,
+                                        "width": 6400000,
+                                        "target-rx-power-adjust": 0,
+                                        "us-chan-id": 8,
+                                        "admin-state": "up",
+                                        "sc-qam-type": "atdma",
+                                        "center-frequency": 54500000,
+                                        "iucs": {
+                                            "iuc": [
+                                                {
+                                                    "code": 1,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 3,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 4,
+                                                    "modulation-type": "qpsk"
+                                                },
+                                                {
+                                                    "code": 9,
+                                                    "modulation-type": "qam-64"
+                                                },
+                                                {
+                                                    "code": 10,
+                                                    "modulation-type": "qam-64"
+                                                },
+                                                {
+                                                    "code": 11,
+                                                    "modulation-type": "qam-64"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "index": 7,
+                                "channel-type": "atdma"
+                            }
+                        ]
+                    },
+                    "state": {
+                        "base-target-rx-power": 0,
+                        "max-req-block-enq-timeout": 0,
+                        "admin-state": "up",
+                        "max-req-block-enq-number": 1
+                    },
+                    "port-index": 0,
+                    "config": {
+                        "base-target-rx-power": 0,
+                        "max-req-block-enq-timeout": 0,
+                        "max-req-block-enq-number": 1
+                    }
+                }
+            },
+            "ds-ports": {
+                "ds-port": {
+                    "channels": {
+                        "channel": [
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "cc:8e:71:69:b0:7c",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 651000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 10,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 0,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "ofdm": {
+                                    "state": {
+                                        "plc-freq": 1019600000,
+                                        "first-active-subcarrier": 204,
+                                        "num-active-subcarriers": 64,
+                                        "cyclic-prefix": 1024,
+                                        "admin-state": "up",
+                                        "power-adjust": 0,
+                                        "center-frequency": 1122100000,
+                                        "subcarrier-spacing": "50-khz",
+                                        "last-active-subcarrier": 3896,
+                                        "rf-mute": false,
+                                        "time-interleaver-depth": 16,
+                                        "subcarrier-zero-freq": 1019600000,
+                                        "roll-off-period": 128,
+                                        "subcarrier-types": {
+                                            "subcarrier-type": [
+                                                {
+                                                    "end-subcarrier-id": 165,
+                                                    "subcarrier-usage": "excluded",
+                                                    "start-subcarrier-id": 0
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 204,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 204
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 280,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 280
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 356,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 356
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 377,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 377
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 389,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 389
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 400,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 400
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 409,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 409
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 431,
+                                                    "subcarrier-usage": "plc",
+                                                    "start-subcarrier-id": 424
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 446,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 446
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 455,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 455
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 466,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 466
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 478,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 478
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 552,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 552
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 628,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 628
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 704,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 704
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 780,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 780
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 856,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 856
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 932,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 932
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 1008,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 1008
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 1084,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 1084
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 1160,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 1160
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 1236,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 1236
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 1312,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 1312
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 1388,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 1388
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 1464,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 1464
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 1540,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 1540
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 1616,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 1616
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 1692,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 1692
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 1768,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 1768
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 1844,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 1844
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 1920,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 1920
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 1996,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 1996
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 2072,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 2072
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 2148,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 2148
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 2224,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 2224
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 2300,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 2300
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 2376,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 2376
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 2452,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 2452
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 2528,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 2528
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 2604,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 2604
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 2680,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 2680
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 2756,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 2756
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 2832,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 2832
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 2908,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 2908
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 2984,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 2984
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 3060,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 3060
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 3136,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 3136
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 3212,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 3212
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 3288,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 3288
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 3364,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 3364
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 3440,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 3440
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 3516,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 3516
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 3592,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 3592
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 3668,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 3668
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 3744,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 3744
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 3820,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 3820
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 3896,
+                                                    "subcarrier-usage": "continuous-pilot",
+                                                    "start-subcarrier-id": 3896
+                                                },
+                                                {
+                                                    "end-subcarrier-id": 4095,
+                                                    "subcarrier-usage": "excluded",
+                                                    "start-subcarrier-id": 3930
+                                                }
+                                            ]
+                                        },
+                                        "width": 184650000,
+                                        "ccap-core-owner": "00"
+                                    },
+                                    "ofdm-profiles": {
+                                        "ofdm-profile": [
+                                            {
+                                                "profile-id": 0,
+                                                "state": {
+                                                    "subcarrier-modulations": {
+                                                        "subcarrier-modulation": {
+                                                            "end-subcarrier-id": 4095,
+                                                            "modulation": "qam-1024",
+                                                            "start-subcarrier-id": 0
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "profile-id": 255,
+                                                "state": {
+                                                    "subcarrier-modulations": {
+                                                        "subcarrier-modulation": {
+                                                            "end-subcarrier-id": 4095,
+                                                            "modulation": "qam-16",
+                                                            "start-subcarrier-id": 0
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "index": 0,
+                                "channel-type": "ofdm"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 657000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 1,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 663000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 2,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 669000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 3,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 675000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 4,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 681000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 5,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 687000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 6,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 693000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 7,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 699000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 8,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 705000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 9,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 711000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 10,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 717000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 11,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 723000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 12,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 729000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 13,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 735000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 14,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 741000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 15,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 747000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 16,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 753000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 17,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 759000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 18,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 765000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 19,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 771000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 20,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 777000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 21,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 783000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 22,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 789000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 23,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 795000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 24,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 801000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 25,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 807000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 26,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 813000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 27,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 819000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 28,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 825000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 29,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 831000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 30,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "sync-mac-address": "00:00:00:00:00:00",
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "admin-state": "up",
+                                        "center-frequency": 837000000,
+                                        "power-adjust": 0,
+                                        "tsid": 0,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "sync-interval": 0,
+                                        "operational-mode": "docsis",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 31,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "symbol-frequency-denominator": 149,
+                                        "symbol-rate-override": 0,
+                                        "admin-state": "up",
+                                        "center-frequency": 111000000,
+                                        "power-adjust": 0,
+                                        "tsid": 1,
+                                        "interleaver-depth": "taps-32-increment-4",
+                                        "rf-mute": false,
+                                        "spectrum-inversion-enabled": false,
+                                        "operational-mode": "asynchronous-mpeg-video",
+                                        "width": 6000000,
+                                        "annex": "annex-b",
+                                        "ccap-core-owner": "000000000000"
+                                    }
+                                },
+                                "index": 32,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "rf-mute": false,
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "spectrum-inversion-enabled": false,
+                                        "symbol-frequency-denominator": 149,
+                                        "width": 6000000,
+                                        "symbol-rate-override": 0,
+                                        "admin-state": "down",
+                                        "center-frequency": 0,
+                                        "power-adjust": 0,
+                                        "annex": "annex-b",
+                                        "interleaver-depth": "taps-32-increment-4"
+                                    }
+                                },
+                                "index": 33,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "rf-mute": false,
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "spectrum-inversion-enabled": false,
+                                        "symbol-frequency-denominator": 149,
+                                        "width": 6000000,
+                                        "symbol-rate-override": 0,
+                                        "admin-state": "down",
+                                        "center-frequency": 0,
+                                        "power-adjust": 0,
+                                        "annex": "annex-b",
+                                        "interleaver-depth": "taps-32-increment-4"
+                                    }
+                                },
+                                "index": 34,
+                                "channel-type": "sc-qam"
+                            },
+                            {
+                                "sc-qam": {
+                                    "state": {
+                                        "rf-mute": false,
+                                        "symbol-frequency-numerator": 78,
+                                        "modulation": "qam-256",
+                                        "spectrum-inversion-enabled": false,
+                                        "symbol-frequency-denominator": 149,
+                                        "width": 6000000,
+                                        "symbol-rate-override": 0,
+                                        "admin-state": "down",
+                                        "center-frequency": 0,
+                                        "power-adjust": 0,
+                                        "annex": "annex-b",
+                                        "interleaver-depth": "taps-32-increment-4"
+                                    }
+                                },
+                                "index": 35,
+                                "channel-type": "sc-qam"
+                            }
+                        ]
+                    },
+                    "state": {
+                        "rf-mute": false,
+                        "tilt-value": 80,
+                        "base-power": 200,
+                        "tilt-maximum-frequency": 500000000,
+                        "admin-state": "up",
+                        "dedicated-tones": {
+                            "tone": [
+                                {
+                                    "rf-mute": true,
+                                    "index": 0,
+                                    "power-adjust": 0,
+                                    "frequency": 999000000,
+                                    "frequency-fraction": 0
+                                },
+                                {
+                                    "rf-mute": true,
+                                    "index": 1,
+                                    "power-adjust": 0,
+                                    "frequency": 0,
+                                    "frequency-fraction": 0
+                                },
+                                {
+                                    "rf-mute": true,
+                                    "index": 2,
+                                    "power-adjust": 0,
+                                    "frequency": 0,
+                                    "frequency-fraction": 0
+                                },
+                                {
+                                    "rf-mute": true,
+                                    "index": 3,
+                                    "power-adjust": 0,
+                                    "frequency": 0,
+                                    "frequency-fraction": 0
+                                }
+                            ]
+                        }
+                    },
+                    "port-index": 0
+                }
+            }
+        },
+        "software": {
+            "state": {
+                "image-name": "ENTRA_RPD_REL_52_1_1_30.bin",
+                "software-version": "1_1_30",
+                "image-server": "192.168.147.190"
+            }
+        },
+        "state": {
+            "name": "rphy1b",
+            "description": "Entra Remote PHY",
+            "location": {
+                "latitude": "+520849.1",
+                "description": "Saskatoon, Saskatchewan, Canada",
+                "longitude": "+1063849.3"
+            },
+            "rpd-state": "active",
+            "firmware": {
+                "boot-rom-version": 0.18
+            },
+            "us-burst-receiver": {
+                "model-number": "3161B1",
+                "vendor-id": 4413,
+                "driver-version": 0.1
+            },
+            "uptime": 180800,
+            "hardware": {
+                "model-number": "EN2090-LDM-G1",
+                "hardware-version": 3.05,
+                "vendor-id": 27427,
+                "serial-number": 9073319,
+                "vendor-name": "Vecima Networks Inc."
+            }
+        },
+        "ccap-cores": {
+            "ccap-core": [
+                {
+                    "core-index": 0,
+                    "state": {
+                        "mode": "active",
+                        "ip-address": "192.168.220.124",
+                        "vendor-id": 27427,
+                        "initial-configuration-complete": false,
+                        "resource-set-index": 0,
+                        "move-to-operational": true,
+                        "name": "Simulator",
+                        "is-principal": true,
+                        "core-id": "4D54493D0020"
+                    },
+                    "config": {
+                        "is-principal": false
+                    }
+                },
+                {
+                    "core-index": 1,
+                    "state": {
+                        "mode": "active",
+                        "ip-address": "192.168.222.63",
+                        "vendor-id": 9,
+                        "initial-configuration-complete": true,
+                        "move-to-operational": true,
+                        "name": "CCAPCORE",
+                        "is-principal": false,
+                        "core-id": "CC8E7169B0B8"
+                    },
+                    "config": {
+                        "is-principal": false
+                    }
+                },
+                {
+                    "core-index": 2,
+                    "state": {
+                        "mode": "active",
+                        "ip-address": "10.10.100.28",
+                        "vendor-id": 27427,
+                        "initial-configuration-complete": true,
+                        "move-to-operational": true,
+                        "name": "Vecima R-PHY Monitor",
+                        "is-principal": false,
+                        "core-id": "FA163E177F03"
+                    },
+                    "config": {
+                        "is-principal": false
+                    }
+                },
+                {
+                    "core-index": 3,
+                    "state": {
+                        "mode": "active",
+                        "ip-address": "10.0.0.51",
+                        "vendor-id": 27427,
+                        "initial-configuration-complete": true,
+                        "move-to-operational": true,
+                        "name": "Vecima R-PHY Monitor",
+                        "is-principal": true,
+                        "core-id": "FA163E2D5AF8"
+                    },
+                    "config": {
+                        "is-principal": false
+                    }
+                },
+                {
+                    "core-index": 4,
+                    "state": {
+                        "mode": "active",
+                        "ip-address": "10.10.100.53",
+                        "vendor-id": 27427,
+                        "initial-configuration-complete": true,
+                        "move-to-operational": true,
+                        "name": "Vecima R-PHY Monitor",
+                        "is-principal": false,
+                        "core-id": "FA163E73BF8E"
+                    },
+                    "config": {
+                        "is-principal": false
+                    }
+                }
+            ]
+        },
+        "ptp": {
+            "state": {
+                "current-dataset": {
+                    "offset-from-master": 38,
+                    "mean-path-delay": 2951,
+                    "steps-removed": 1
+                },
+                "port-datasets": {
+                    "port-dataset": {
+                        "mean-path-delay": 2951,
+                        "port-number": 1,
+                        "port-state": "slave"
+                    }
+                },
+                "clock": {
+                    "clock-status": "phase-aligned",
+                    "last-state-change": 0
+                }
+            }
+        },
+        "rcp": {
+            "state": {
+                "protocol-version": 1,
+                "schema-version": "1.0.9"
+            }
+        }
+    }
+}

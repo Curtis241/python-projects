@@ -6,5 +6,5 @@ if __name__ == "__main__":
     data = "some data"
     sock.sendall(data)
     result = sock.recv(1024)
-    print result
+    print(result)
     sock.close()

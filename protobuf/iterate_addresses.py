@@ -1,5 +1,4 @@
 import addressbook_pb2
-import protobuf_to_dict
 
 person = addressbook_pb2.Person()
 person.id = 1234
@@ -20,9 +19,9 @@ def dump_object(obj):
                 dump_object(value)
         elif descriptor.type == descriptor.TYPE_ENUM:
             enum_name = descriptor.enum_type.values[value].name
-            print "%s: %s" % (descriptor.full_name, enum_name)
+            print("%s: %s" % (descriptor.full_name, enum_name))
         else:
-            print "%s: %s" % (descriptor.full_name, value)
+            print("%s: %s" % (descriptor.full_name, value))
 
 
 #dump_object(person)

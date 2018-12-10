@@ -14,4 +14,4 @@ phone.type = addressbook_pb2.Person.HOME
 
 type_callable_map = copy(TYPE_CALLABLE_MAP)
 type_callable_map[FieldDescriptor.TYPE_BYTES] = str
-print protobuf_to_dict(person, type_callable_map=type_callable_map)
+print(protobuf_to_dict(person, type_callable_map=type_callable_map))

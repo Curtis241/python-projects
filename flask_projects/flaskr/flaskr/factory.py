@@ -15,7 +15,6 @@ from flask import Flask, g
 from werkzeug.utils import find_modules, import_string
 from flaskr.blueprints.flaskr import init_db
 
-
 def create_app(config=None):
     app = Flask('flaskr')
 

@@ -9,7 +9,7 @@ def import_dict(person, person_dict):
 
     for descriptor in person.DESCRIPTOR.fields:
         value = person_dict.get(descriptor.name)
-        print "Dictionary value: {0}".format(value)
+        print("Dictionary value: {0}".format(value))
         key_value_list.append("{0}={1}".format(descriptor.name, str(value)))
 
     return key_value_list
@@ -29,7 +29,7 @@ def dump_object(obj):
                 dump_object(value)
         elif descriptor.type == descriptor.TYPE_ENUM:
             enum_name = descriptor.enum_type.values[value].name
-            print "%s: %s" % (descriptor.full_name, enum_name)
+            print("%s: %s" % (descriptor.full_name, enum_name))
         else:
-            print "%s: %s" % (descriptor.full_name, value)
+            print("%s: %s" % (descriptor.full_name, value))
 

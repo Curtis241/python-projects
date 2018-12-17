@@ -102,3 +102,5 @@ venv3/
 # mypy
 .mypy_cache/
 
+# Pycharm
+.idea/

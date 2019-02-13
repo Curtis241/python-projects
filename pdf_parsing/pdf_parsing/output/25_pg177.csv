@@ -1,0 +1,48 @@
+TLV Name,Object Type,TLV,TLV,Constraints,Comments
+"",,Type,Value,,
+"",,,Field,,
+"",,,Length,,
+EvFirstTime,dateTime,85.3,8 | 11,R,
+EvLastTime,dateTime,85.4,8 | 11,R,
+EvCounts,UnsignedInt,85.5,4,R,
+EvLevel,UnsignedByte,85.6,1,R,
+EvId,UnisgnedInt,85.7,4,R,
+EvString,String,85.8,1-255,R,
+GeneralNotification,Complex TLV,86,Variable,Written to notify,There is no access to
+"",,,,message by RPD,attributes outside the
+"",,,,,notify message
+NotificationType,UnsignedByte,86.1,1,,
+RedirectResult,UnsignedByte,86.2,1,,
+RpdRedirectIpAddress,IPv4 or IPv6,86.3,4 or 16,,
+PtpRpdEnetPortIndex,UnsignedByte,86.4,1,,
+PtpResult,UnsignedByte,86.5,1,,
+AuxCoreResult,UnsignedByte,86.6,1,,
+AuxCoreIpAddress,IPv4 or IPv6,86.7,4 or 16,,
+AuxCoreFailureType,UnsignedByte,86.8,1,,
+SpecificTimeOut,UnsignedByte,86.9,1,,
+CoreTimedOutIpAddress,IPv4 or IPv6,86.10,4 or 16,,
+PtpRpdPtpPortIndex,UnsignedByte,86.11,1,,
+PtpClockSource,UnsignedByte,86.12,1,,
+AuxCoreGcpConnectionStatus,UnsignedByte,86.13,1,R,
+AuxCoreId,HexBinary,86.14,6,R,
+AuxCoreIpAddress,IpAddress,86.15,4 or 16,R,
+RpdState,Complex TLV,87,variable,R,
+TopLevelRPDState,UnsignedByte,87.1,1,R,
+NetworkAuthenticationState,Complex TLV,87.2,variable,R,This is port specific
+NetworkAuthenticationPortIndex,UnsignedByte,87.2.1,1,R,
+NetworkAuthenticationRpdState,UnsignedByte,87.2.2,1,R,
+ConnectPrincipalCoreSubState,UnsignedByte,87.3,1,R,
+AuxCoreState,Complex TLV,87.4,variable,N/A,
+AuxCoreIndex,UnsignedByte,87.4.1,1,N/A,
+AuxCoreId,MacAddressHexBinary,87.4.2,6,R,
+AuxCoreIp,IpAddress,87.4.3,4 or 16,R,
+AuxCoreRPDState,UnsignedByte,87.4.4,1,R,This is core specific
+LocalPtpSyncStatus,Boolean,87.5,1,R,
+MultiCore,Complex TLV,88,variable,R,
+ConfiguredCoreTable,Complex TLV,88.1,variable,R,
+Index,UnsignedByte,88.1.1,1,N/A,
+ConfiguredCoreIp,IpAddress,88.1.2,4 or 16,R,
+ResourceSet,Complex TLV,88.2,variable,R/AW,Table
+ResourceSetIndex,UnsignedByte,88.2.1,1,N/A,key
+CcapCoreOwner,HexBinary,88.2.2,6,R/W,
+DsRfPortStart,UnsignedByte,88.2.3,4,R/W,

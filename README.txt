@@ -1,3 +1,14 @@
+
+virtualenv
+virtualenv venv3 -p python3.7
+
+source venv3/bin/activate
+
+deactivate
+
+
+Conda
+
 Most of the dependencies in this directory are managed by conda.
 
 https://conda.io/docs/index.html

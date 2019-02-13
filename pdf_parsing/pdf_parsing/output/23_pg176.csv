@@ -1,0 +1,46 @@
+TLV Name,Object Type,TLV,TLV Value,Constraints,Comments
+"",,Type,Field,,
+"",,,Length,,
+RpdPtpPortTransportType,UnsignedByte,97.8.7,1,R/W,"IPv4, IPv6"
+RpdPtpPortTransportCos,UnsignedByte,97.8.8,,,
+RpdPtpPortTransportDscp,UnsignedByte,97.8.9,1,R/W,
+RpdPtpPortDsLocalPriority,UnsignedByte,97.8.10,1,R/W,
+RpdPtpPortDsLogSyncInterval,UnsignedByte,97.8.11,1,R/W,Base 2 scale
+"",,,,,
+RpdPtpPortDsLogAnnounceInterval,UnsignedByte,97.8.12,1,R/W,Base 2 scale
+"",,,,,
+RpdPtpPortDsLogDelayReqInterval,UnsignedByte,97.8.13,1,R/W,Base 2 scale
+"",,,,,
+RpdPtpPortDsAnnounceReceiptTimeout,UnsignedByte,97.8.14,1,R/W,
+RpdPtpPortUnicastContractDuration,UnsignedShort,97.8.15,2,R/W,
+RpdPtpPortClockSrcGw,IpAddress,97.8.16,4 | 16,R/W,
+RpdPtpPortClockAltSrcGw,IpAddress,97.8.17,4 | 16,R/W,
+"",TLV Name,Object Type,TLV,,TLV,Constraints,Comments
+"",,,Type,,Value,,
+"",,,,,Field,,
+"",,,,,Length,,
+RpdInfo,,ComplexTLV,100,-,,R,See [R-OSSI] for all
+"",,,,,,,GCP TLV 100.x
+"",,,,,,,assignments
+DOCS-IF31,,Complex TLV,101,,,R,Reserved for DOCS-
+"",,,,,,,IF31 objects
+DOCS-IF3,,Complex TLV,102,,,R,Reserved for DOCS-
+"",,,,,,,IF3 objects
+DOCS-IF,,Complex TLV,103,,,R,Reserved for DOCS-
+"",,,,,,,IF objects
+OutputBufferOccupancyHistory,,Complex TLV,83,variable,,,
+MaximumBufferDepth,,UnsignedInt,83.1,4,,R/O,
+BufferDepth,,UnsignedInt,83.2,4,,R/W,
+EnableMonitor,,Boolean,83.3,1,,R/W,
+NormalizationFactor,,UnsignedInt,83.4,4,,R/W,
+FirstSampleTimestamp,,UnsignedInt,83.5,4,,R/W,
+SampledBufferOccupancy,,HexBinary,83.6,1000,,R/O,
+OutputBufferThresholdAlert,,Complex TLV,84,variable,,,
+BufferDepthMonAlertEnable,,Boolean,84.1,1,,R/W,
+BufferDepthMonAlertStatus,,UnsignedByte,84.2,1,,R/O,
+AlertThreshold,,UnsignedByte,84.3,1,,R/W,
+SmoothingFactorN,,UnsignedShort,84.4,2,,R/W,
+LastAlertTimestamp,,UnsignedInt,84.5,4,,R/O,
+EventNotification,,Complex TLV,85,variable,,N/A,
+RpdEvLogIndex,,UnsignedInt,85.1,4,,R,
+PendingOrLocalLog,,Boolean,85.2,1,,R,

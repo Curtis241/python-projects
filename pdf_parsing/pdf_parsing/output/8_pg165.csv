@@ -1,0 +1,48 @@
+Attribute/TLV Name,Object Type,TLV Type,TLV,Constraints,Comments
+"",,,Value,,
+"",,,Field,,
+"",,,Length,,
+DsOfdmChannelConfig,Complex TLV,63,,,
+AdminState,AdminStateType,63.1,1,R/W,
+CcapCoreOwner,HexBinary,63.2,6,R/W,
+RfMute,Boolean,63.3,1,R/W,True if
+"",,,,,channel is
+"",,,,,muted
+SubcarrierZeroFreq,UnsignedInt,63.4,4,R,
+FirstActiveSubcarrier,UnsignedShort,63.5,2,R,
+LastActiveSubcarrier,UnsignedShort,63.6,2,R,
+NumActiveSubcarriers,UnsignedShort,63.7,2,R,
+CyclicPrefix,DsOfdmCyclicPrefixType,63.8,1,R,
+RollOffPeriod,DsOfdmWindowingType,63.9,1,R,
+PlcFreq,UnsignedInt,63.10,4,R,
+TimeInterleaverDepth,UnsignedByte,63.11,1,R,
+SubcarrierSpacing,UnsignedByte,63.12,1,R,
+DsOfdmSubcarrierType,Complex TLV,63.13,,,
+StartSubcarrierId,UnsignedShort,63.13.1,2,N/A,
+EndSubcarrierId,UnsignedShort,63.13.2,2,R,
+SubcarrierUsage,SubcarrierUsageType,63.13.3,1,R,
+PowerAdjust,Short,63.14,2,R/W,TenthdB
+DsOfdmProfile,Complex TLV,64,,,
+ProfileId,UnsignedByte,64.1,1,,key
+DsOfdmSubcarrierModulation,Complex TLV,64.2,variable,,
+StartSubcarrierId,UnsignedShort,64.2.1,2,N/A,key
+EndSubcarrierId,UnsignedShort,64.2.2,2,R,
+Modulation,DsOfdmModulationType,64.2.3,1,R,
+UsScQamChannelConfig,Complex TLV,65,,,
+AdminState,AdminStateType,65.1,1,R/W,
+CcapCoreOwner,HexBinary,65.2,6,R/W,
+ChannelType,UpstreamChantype,65.3,1,R,
+CenterFrequency,UnsignedInt,65.4,4,R,
+Width,UnsignedInt,65.5,4,R,
+SlotSize,UnsignedInt,65.6,4,R,
+StartingMinislot,UnsignedInt,65.7,4,R/W,
+PreambleString,HexBinary,65.8,variable,R,
+TargetRxPowerAdjust,Short,65.9,2,R/W,TenthdB per
+"",,,,,1.6 MHz
+IntervalUsageCode,Complex TLV,65.10,,,
+Code,UnsignedByte,65.10.1,1,1..14,
+DifferentialEncoding,Boolean,65.10.2,1,R,
+FecErrorCorrectionT,UnsignedByte,65.10.3,1,R,
+FecCodewordLength,UnsignedByte,65.10.4,1,R,
+PreambleLen,UnsignedShort,65.10.5,2,R,
+PreambleOffsett,UnsignedShort,65.10.6,2,R,

@@ -1,0 +1,41 @@
+TLV Name,Object Type,TLV Type,TLV Value,Constraints,Comments
+"",,,Field Length,,
+DocsisTimestamp64,UnsignedLong,24,8,,
+RpdRedirect,ComplexTLV,25,variable,,
+RedirectIpAddress,IpAddress,25.1,4 or 16,,
+ReadCount,UnsignedShort,26,2,,
+Attribute/TLV Name,Object Type,TLV Type,TLV,Constraints,Comments
+"",,,Value,,
+"",,,Field,,
+"",,,Length,,
+RpdCapabilities,Complex TLV,50,variable,R,
+NumBdirPorts,UnsignedShort,50.1,2,R,
+NumDsRfPorts,UnsignedShort,50.2,2,R,
+NumUsRfPorts,UnsignedShort,50.3,2,R,
+NumTenGeNsPorts,UnsignedShort,50.4,2,R,
+NumOneGeNsPorts,UnsignedShort,50.5,2,R,
+NumDsScQamChannels,UnsignedShort,50.6,2,R,
+NumDsOfdmChannels,UnsignedShort,50.7,2,R,
+NumUsScQamChannels,UnsignedShort,50.8,2,R,
+NumUsOfdmaChannels,UnsignedShort,50.9,2,R,
+NumDsOob55d1Channels,UnsignedShort,50.10,2,R,
+NumUsOob55d1Channels,UnsignedShort,50.11,2,R,
+NumOob55d2Modules,UnsignedShort,50.12,2,R,
+NumUsOob55d2Demodulators,UnsignedShort,50.13,2,R,
+NumNdfChannels,UnsignedShort,50.14,2,R,
+NumNdrChannels,UnsignedShort,50.15,2,R,
+SupportsUdpEncap,Boolean,50.16,1,R,
+NumDsPspFlows,UnsignedByte,50.17,1,R,Per
+"",,,,,pseudowire
+NumUsPspFlows,UnsignedByte,50.18,1,R,Per
+"",,,,,pseudowire
+RpdIdentification,Complex TLV,50.19,variable,R,
+VendorName,String,50.19.1,0-255,R,
+VendorId,UnsignedShort,50.19.2,2,R,
+ModelNumber,String,50.19.3,0-255,R,
+DeviceMacAddress,MacAddress,50.19.4,6,R,
+CurrentSwVersion,String,50.19.5,0-255,R,0-255
+BootRomVersion,String,50.19.6,0-255,R,0-255
+DeviceDescription,String,50.19.7,0-255,R,
+DeviceAlias,String,50.19.8,0-255,R/W,
+SerialNumber,String,50.19.9,0-255,R,

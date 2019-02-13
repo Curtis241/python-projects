@@ -1,0 +1,137 @@
+file:
+    name: 'CM-SP-R-PHY-I10-180509.pdf'
+    import_columns:
+        - column:
+            name: 'tlv_name'
+            title: 'Attribute/TLV Name'
+        - column:
+            name: 'object_type'
+            title: 'Object Type'
+        - column:
+            name: 'tlv_type'
+            title: 'TLV Type'
+        - column:
+            name: 'field_length'
+            title: 'TLV Value Field Length'
+        - column:
+            name: 'comments'
+            title: 'Comments'
+    export_columns:
+        - column:
+            name: 'tlv_name'
+            title: 'Attribute/TLV Name'
+        - column:
+            name: 'object_type'
+            title: 'Object Type'
+        - column:
+            name: 'tlv_type'
+            title: 'TLV Type'
+        - column:
+            name: 'field_length'
+            title: 'TLV Value Field Length'
+tables:
+    - table:
+        page_number: 159
+        start_tlv: 'RpdCapabilities'
+        end_tlv: 'SerialNumber'
+    - table:
+        page_number: 160
+        start_tlv: 'UsBurstReceiverVendorId'
+        end_tlv: 'DeviceLocation'
+    - table:
+        page_number: 161
+        start_tlv: 'DeviceLocationDescription'
+        end_tlv: 'SupportsPspNdfPw'
+    - table:
+        page_number: 162
+        start_tlv: 'SupportsPspNdrPw'
+        end_tlv:  'SupportedTrigChanTypes'
+    - table:
+        page_number: 163
+        start_tlv: 'PwType'
+        end_tlv: 'MinScanningRepeatPeriod'
+    - table:
+        page_number: 163
+        start_tlv: 'EvCfg'
+        end_tlv: 'CoreName'
+    - table:
+        page_number: 164
+        start_tlv: 'VendorId'
+        end_tlv: 'PowerAdjust'
+    - table:
+        page_number: 165
+        start_tlv: 'DsOfdmChannelConfig'
+        end_tlv: 'PreambleOffsett'
+    - table:
+        page_number: 166
+        start_tlv: 'PreambleModType'
+        end_tlv:  'Guardband'
+    - table:
+        page_number: 167
+        start_tlv: 'UsOfdmaFineRangingIuc'
+        end_tlv:  'ResponseScQamScramblerSeed'
+    - table:
+        page_number: 168
+        start_tlv: 'ResponseScQamGuardTime'
+        end_tlv: 'StaticPwStatus'
+    - table:
+        page_number: 169
+        start_tlv: 'CommonStaticPwStatus'
+        end_tlv: 'L2TPv3'
+    - table:
+        page_number: 169
+        start_tlv: 'DsRfPortPerf'
+        end_tlv: 'outPackets'
+    - table:
+        page_number: 170
+        start_tlv: 'discontinuityTime'
+        end_tlv: 'UsIuc'
+    - table:
+        page_number: 171
+        start_tlv: 'ScheduledGrants'
+        end_tlv: 'IllegalMaps'
+    - table:
+        page_number: 172
+        start_tlv: 'DiscardedRequests'
+        end_tlv: 'operStatusNdr'
+    - table:
+        page_number: 172
+        start_tlv: 'RpdCtrl'
+        end_tlv: 'ScCfgTrigMinislotCount'
+    - table:
+        page_number: 173
+        start_tlv: 'ScCfgTrigSid'
+        end_tlv: 'SwImageIndex'
+    - table:
+        page_number: 173
+        start_tlv: 'DsOob55d1'
+        end_tlv: 'SfAdminState'
+    - table:
+        page_number: 174
+        start_tlv: 'SfRfMute'
+        end_tlv: 'TargetRxPowerAdjust'
+    - table:
+        page_number: 174
+        start_tlv: 'Oob55d2Config'
+        end_tlv: 'RfMute'
+    - table:
+        page_number: 175
+        start_tlv: 'RdtiConfig'
+        end_tlv: 'RpdPtpPortClockSelectAlternateSourceFirst'
+    - table:
+        page_number: 176
+        start_tlv: 'RpdPtpPortTransportType'
+        end_tlv: 'RpdPtpPortClockAltSrcGw'
+    - table:
+        page_number: 176
+        start_tlv: 'RpdInfo'
+        end_tlv: 'PendingOrLocalLog'
+    - table:
+        page_number: 177
+        start_tlv: 'EvFirstTime'
+        end_tlv: 'DsRfPortStart'
+    - table:
+        page_number: 178
+        start_tlv: 'DsRfPortEnd'
+        end_tlv: 'ResourceAllocationCheck'
+

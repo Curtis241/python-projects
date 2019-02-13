@@ -1,0 +1,49 @@
+Attribute/TLV Name,Object Type,TLV Type,TLV,Constraints,Comments
+"",,,Value,,
+"",,,Field,,
+"",,,Length,,
+VendorId,UnsignedShort,60.6,2,R/W,
+CoreMode,UnsignedByte,60.7,1,R/W,
+InitialConfigurationComplete,Boolean,60.8,1,R/W,
+MoveToOperational,Boolean,60.9,1,R/W,
+CoreFunction,UnsignedShort,60.10,2,R/W,
+ResourceSetIndex,UnsignedByte,60.11,1,R/W,
+Deprecated,UnsignedShort,60.12,2,R/W,
+GcpBackupConnectionConfig,UnsignedShort,60.13,2,R/W,
+CandidateBackupCoreTable,Complex TLV,60.14,variable,R,
+Index,UnsignedByte,60.14.1,1,N/A,
+BackupCoreIpAddress,IpAddress,60.14.2,4 or 16,R,
+DsRfPort,Complex TLV,61,variable,,
+AdminState,AdminStateType,61.2,1,R/W,
+BasePower,Short,61.3,2,R/W,TenthdBmV
+RfMute,Boolean,61.4,1,R/W,
+TiltValue,Short,61.5,2,R/W,TenthdB
+TiltMaximumFrequency,UnsignedInt,61.6,4,R/W,
+DedicatedToneConfig,Complex TLV,61.7,Variable,,
+ToneIndex,UnsignedByte,61.7.1,1,N/A,
+ToneFrequency,UnsignedInt,61.7.2,4,R/W,
+TonePowerAdjust,Short,61.7.3,2,R/W,TenthdB
+RfMute,UnsignedByte,61.7.4,1,R/W,
+FrequencyFraction,UnsignedByte,61.7.5,1,R/W,
+DsScQamChannelConfig,Complex TLV,62,,,
+AdminState,AdminStateType,62.1,1,R/W,
+CcapCoreOwner,HexBinary,62.2,6,R/W,
+RfMute,Boolean,62.3,1,R/W,True if
+"",,,,,channel is
+"",,,,,muted
+TSID,UnsignedShort,62.4,2,R/W,Optional
+"",,,,,attribute
+CenterFrequency,UnsignedLong,62.5,4,R/W,
+OperationaMode,Unsigned Byte,62.6,1,R/W,
+Modulation,DsModulationType,62.7,1,R/W,
+InterleaverDepth,DsInterleaveType,62.8,1,R/W,
+Annex,DsAnnexType,62.9,1,R/W,
+SyncInterval,UnisgnedByte,62.10,1,R/W,"If zero, no"
+"",,,,,Sync is sent
+SyncMacAddress,MacAddress,62.11,6,R/W,
+SymbolFrequencyDenominator,UnsignedShort,62.12,2,R/W,
+SymbolFrequencyNumerator,UnsignedShort,62.13,2,R/W,Is this
+"",,,,,needed?
+SymbolRateOverride,UnsignedInt,62.14,4,R/W,
+SpectrumInversionEnabled,Boolean,62.15,1,R/W,
+PowerAdjust,Short,62.16,2,R/W,TenthdB

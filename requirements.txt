@@ -10,7 +10,7 @@ flask-bootstrap==3.3.7.1
 flatdict==3.1.0
 idna==2.7
 itsdangerous==1.1.0
-jinja2==2.10
+jinja2==2.10.1
 more-itertools==4.3.0
 numpy==1.15.4
 pathlib==1.0.1

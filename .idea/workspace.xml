@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cfb8ccb-6c57-4b49-a736-8e3351eab9a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pdf_parsing/tests/test_rpy_spec_pdf_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environment.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_parsing/1_pg158.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_parsing/pdf_parsing/CM-SP-R-PHY-I10-180509.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_parsing/pdf_parsing/extract_pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_parsing/pdf_parsing/extract_pdf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_parsing/tests/test_columns.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_parsing/tests/test_table.py" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,6 +164,7 @@
     <option name="width" value="1289" />
     <option name="height" value="555" />
   </component>
+  <component name="ProjectId" id="1lcIsCoybMNE9xEDAi13jsAX3Iu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -214,11 +208,17 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="/opt/miniconda3/envs/myprojects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -226,18 +226,6 @@
       <recent name="$PROJECT_DIR$/robot/test_automation/test_automation/test_suites" />
       <recent name="$PROJECT_DIR$/robot/test_automation/test_automation/lib" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python tests.pytest in test_parsing.py">
     <configuration name="extract_pdf" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -271,6 +259,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_rpy_spec_pdf_file.test_tlv_column&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -286,6 +275,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_rpy_spec_pdf_file.test_tlv_type_column&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -301,6 +291,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/parsing/test_parsing.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
@@ -316,6 +307,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/pdf_parsing/tests/test_rpy_spec_pdf_file.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
@@ -323,10 +315,10 @@
     </configuration>
     <list>
       <item itemvalue="Python.extract_pdf" />
-      <item itemvalue="Python tests.pytest in test_rpy_spec_pdf_file.py" />
-      <item itemvalue="Python tests.pytest for test_rpy_spec_pdf_file.test_tlv_type_column" />
       <item itemvalue="Python tests.pytest for test_rpy_spec_pdf_file.test_tlv_column" />
+      <item itemvalue="Python tests.pytest for test_rpy_spec_pdf_file.test_tlv_type_column" />
       <item itemvalue="Python tests.pytest in test_parsing.py" />
+      <item itemvalue="Python tests.pytest in test_rpy_spec_pdf_file.py" />
     </list>
     <recent_temporary>
       <list>
@@ -338,6 +330,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
